@@ -1,0 +1,35 @@
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  button {
+    transition: all 0.2s ease-out;
+    margin: 4px;
+    cursor: pointer;
+    background: #222;
+    border: 0;
+    color: #fff;
+    min-width: 90px;
+    padding: 8px 12px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 0.6rem;
+    border: 1px solid #fff;
+  }
+  
+  button:hover {
+    background: #541db9;
+    color: #fff;
+  }
+  
+  button:active {
+    background: #541db9;
+  }
